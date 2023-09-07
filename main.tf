@@ -15,7 +15,7 @@ provider "aws" {
 
 #Creating my s3 bucket, 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "jenekinsnews3bucket"
+  bucket = "jenekinsnews4bucket"
 
   tags = {
     Name        = "My bucket"
